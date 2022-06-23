@@ -1,0 +1,167 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "solar_pannel",
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        6,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            0,
+            16,
+            2.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            8,
+            2.5,
+            16,
+            5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8,
+            5,
+            16,
+            7.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            8,
+            7.5,
+            16,
+            10
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            0,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            0,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        2.75,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4.25,
+        3
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4.25,
+        3
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        4.5,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "scale": [
+        0.97227,
+        0.9,
+        0.97812
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        -90,
+        90
+      ],
+      "translation": [
+        0,
+        0,
+        -3.25
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

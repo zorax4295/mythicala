@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mythicala:blocks/moteur",
+    "up": "mythicala:blocks/moteur",
+    "north": "mythicala:blocks/moteur",
+    "east": "mythicala:blocks/moteur",
+    "south": "mythicala:blocks/moteur",
+    "west": "mythicala:blocks/moteur",
+    "particle": "mythicala:blocks/moteur"
+  }
+}

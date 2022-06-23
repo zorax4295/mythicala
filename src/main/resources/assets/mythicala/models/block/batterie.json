@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mythicala:blocks/batterie",
+    "up": "mythicala:blocks/batterie",
+    "north": "mythicala:blocks/batterie",
+    "east": "mythicala:blocks/batterie",
+    "south": "mythicala:blocks/batterie",
+    "west": "mythicala:blocks/batterie",
+    "particle": "mythicala:blocks/batterie"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "mythicala:validerregle"
+    },
+    "title": {
+      "translate": "advancements.regleaccepter.title"
+    },
+    "description": {
+      "translate": "advancements.regleaccepter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "regleaccepter": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "mythicala:validerregle"
+          ]
+        }
+      }
+    }
+  }
+}

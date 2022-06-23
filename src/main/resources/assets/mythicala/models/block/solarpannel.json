@@ -1,0 +1,8 @@
+{
+  "parent": "mythicala:custom/solar_pannel",
+  "textures": {
+    "all": "mythicala:blocks/texture_solar_pannel_niv1",
+    "particle": "mythicala:blocks/texture_solar_pannel_niv1",
+    "0": "mythicala:blocks/texture_solar_pannel_niv1"
+  }
+}

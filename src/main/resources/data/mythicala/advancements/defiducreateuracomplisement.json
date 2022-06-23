@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "mythicala:defiducreateur"
+    },
+    "title": {
+      "translate": "advancements.defiducreateuracomplisement.title"
+    },
+    "description": {
+      "translate": "advancements.defiducreateuracomplisement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "defiducreateuracomplisement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  }
+}

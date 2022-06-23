@@ -1,0 +1,8 @@
+{
+  "parent": "mythicala:custom/cable_niv1",
+  "textures": {
+    "all": "mythicala:blocks/texture_cable_niv1",
+    "particle": "mythicala:blocks/texture_cable_niv1",
+    "0": "mythicala:blocks/texture_cable_niv1"
+  }
+}

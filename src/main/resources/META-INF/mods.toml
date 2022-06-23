@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="mythicala"
+version="1.0.0"
+displayName="mythicala"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="zorax4295"
+description='''
+serveur moder pvp
+'''
+
+[[dependencies.mythicala]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mythicala]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.1.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

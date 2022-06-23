@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mythicala:forge",
+    "mythicala:batterie",
+    "mythicala:moteur",
+    "mythicala:cableniv_1"
+  ]
+}

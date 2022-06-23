@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ma_musique",
+    "name": "Ma musique",
+    "description": "test",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:close_to_the_sun"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

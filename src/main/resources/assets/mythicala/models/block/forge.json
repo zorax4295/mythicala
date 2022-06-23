@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mythicala:blocks/fonderie_haut",
+    "up": "mythicala:blocks/fonderie_haut",
+    "north": "mythicala:blocks/fonderie_face",
+    "east": "mythicala:blocks/fonderie_coter",
+    "south": "mythicala:blocks/fonderie_coter",
+    "west": "mythicala:blocks/fonderie_coter",
+    "particle": "mythicala:blocks/fonderie_haut"
+  }
+}
