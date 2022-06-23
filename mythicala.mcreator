@@ -225,14 +225,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cableniv_1"
-    },
-    {
-      "name": "Hugftrktgtg",
-      "type": "gui",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hugftrktgtg"
     }
   ],
   "variable_elements": [],
