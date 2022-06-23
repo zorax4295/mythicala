@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class HugftrktgtgMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class FfMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -27,8 +27,8 @@ public class HugftrktgtgMenu extends AbstractContainerMenu implements Supplier<M
 	private final Map<Integer, Slot> customSlots = new HashMap<>();
 	private boolean bound = false;
 
-	public HugftrktgtgMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(MythicalaModMenus.HUGFTRKTGTG, id);
+	public FfMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(MythicalaModMenus.FF, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(0);

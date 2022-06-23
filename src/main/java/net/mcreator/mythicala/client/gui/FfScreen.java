@@ -9,20 +9,20 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.mythicala.world.inventory.HugftrktgtgMenu;
+import net.mcreator.mythicala.world.inventory.FfMenu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class HugftrktgtgScreen extends AbstractContainerScreen<HugftrktgtgMenu> {
-	private final static HashMap<String, Object> guistate = HugftrktgtgMenu.guistate;
+public class FfScreen extends AbstractContainerScreen<FfMenu> {
+	private final static HashMap<String, Object> guistate = FfMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public HugftrktgtgScreen(HugftrktgtgMenu container, Inventory inventory, Component text) {
+	public FfScreen(FfMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -33,7 +33,7 @@ public class HugftrktgtgScreen extends AbstractContainerScreen<HugftrktgtgMenu> 
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("mythicala:textures/hugftrktgtg.png");
+	private static final ResourceLocation texture = new ResourceLocation("mythicala:textures/ff.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

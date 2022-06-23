@@ -13,7 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.mythicala.world.inventory.MoteurbatterieMenu;
-import net.mcreator.mythicala.world.inventory.HugftrktgtgMenu;
+import net.mcreator.mythicala.world.inventory.FfMenu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -23,8 +23,7 @@ public class MythicalaModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<MoteurbatterieMenu> MOTEURBATTERIE = register("moteurbatterie",
 			(id, inv, extraData) -> new MoteurbatterieMenu(id, inv, extraData));
-	public static final MenuType<HugftrktgtgMenu> HUGFTRKTGTG = register("hugftrktgtg",
-			(id, inv, extraData) -> new HugftrktgtgMenu(id, inv, extraData));
+	public static final MenuType<FfMenu> FF = register("ff", (id, inv, extraData) -> new FfMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

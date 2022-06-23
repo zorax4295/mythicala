@@ -227,12 +227,12 @@
       "registry_name": "cableniv_1"
     },
     {
-      "name": "Hugftrktgtg",
+      "name": "Ff",
       "type": "gui",
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hugftrktgtg"
+      "registry_name": "ff"
     }
   ],
   "variable_elements": [],

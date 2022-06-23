@@ -12,7 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.mythicala.client.gui.MoteurbatterieScreen;
-import net.mcreator.mythicala.client.gui.HugftrktgtgScreen;
+import net.mcreator.mythicala.client.gui.FfScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MythicalaModScreens {
@@ -20,7 +20,7 @@ public class MythicalaModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(MythicalaModMenus.MOTEURBATTERIE, MoteurbatterieScreen::new);
-			MenuScreens.register(MythicalaModMenus.HUGFTRKTGTG, HugftrktgtgScreen::new);
+			MenuScreens.register(MythicalaModMenus.FF, FfScreen::new);
 		});
 	}
 }
